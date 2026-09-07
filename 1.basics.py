@@ -344,6 +344,10 @@ print(student[1])
 print(student[2])
 print(student[3])
 
+#input in list
+lst1 = list(map(int, input().split()))
+lst2 = input().split()
+
 
 # 28. TUPLE  Immutable, ordered collection that allows duplicates.
 numbers = (10, 20, 30, 40)
@@ -353,9 +357,6 @@ print(numbers[-1])
 print(len(numbers))
 print(numbers[1:3])
 
-#input in list
-lst1 = list(map(int, input().split()))
-lst2 = input().split()
 
 
 # 29. SET  Mutable, unordered collection that does not allow duplicates.
