@@ -353,6 +353,10 @@ print(numbers[-1])
 print(len(numbers))
 print(numbers[1:3])
 
+#input in list
+lst1 = list(map(int, input().split()))
+lst2 = input().split()
+
 
 # 29. SET  Mutable, unordered collection that does not allow duplicates.
 numbers = {10, 20, 30, 20, 10}
