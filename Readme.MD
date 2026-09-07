@@ -87,6 +87,29 @@ A collection of Python learning notes and practice programs covering the fundame
 - `*args`
 - `**kwargs`
 
+### Header Files
+- math
+- collections
+    - counter
+    - deque
+    - defaultdict
+- heapq
+- bisect
+- itertools
+    - permutations 
+    - combinations 
+    - product 
+    - accumulate
+- functools
+    - reduce
+    - cache
+- sys
+- re
+- string
+- rendom
+- operator
+
+
 
 ## Purpose
 

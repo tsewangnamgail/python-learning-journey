@@ -201,41 +201,32 @@ print(a is not b)  #False
 
 
 # 17. MEMBERSHIP OPERATORS
-
 name = "Python"
-
 print("P" in name)      #True
 print("z" in name)      #False
 print("P" not in name)  #False
 
 
 # 18. STRING BASICS
-
 text = "Python Programming"
-
 print(text)
 print(len(text))
 
 
 # 19. STRING INDEXING
-
 text = "Python"
-
 print(text[0])
 print(text[1])
 print(text[2])
 print(text[3])
 print(text[4])
 print(text[5])
-
 print(text[-1])
 print(text[-2])
 
 
 # 20. STRING SLICING
-
 text = "Python"
-
 print(text[0:3])    #(start:end:step)
 print(text[1:4])
 print(text[:3])
@@ -245,24 +236,18 @@ print(text[::-1])
 
 
 # 21. STRING CONCATENATION
-
 first_name = "Tsewang"
 last_name = "Namgail"
-
 full_name = first_name + " " + last_name
-
 print(full_name)
 
 
 # 22. STRING REPETITION
-
 text = "Python "
-
 print(text * 3)
 
 
 # 23. STRING METHODS
-
 text = "python programming"
 print(text.upper())
 print(text.lower())
