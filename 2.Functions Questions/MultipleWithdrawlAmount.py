@@ -11,10 +11,9 @@ def atm_withdrawals(withdrawals, balance):
     return balance
 
 
-# Single input containing withdrawal amounts
-withdrawals = list(map(int, input().split()))
-
-# ATM balance
+# Single input containing withdrawal amounts  ex:200 300 400   
+withdrawals = list(map(int, input().split()))     #use to take multiple input in single line
+# ATM balance  ex:5000
 balance = int(input())
 
 atm_withdrawals(withdrawals, balance)

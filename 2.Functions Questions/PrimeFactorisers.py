@@ -15,4 +15,9 @@ def prime_factors(n):
 
 
 n = int(input())
-print(prime_factors(n))
+mylist=prime_factors(n)
+print(mylist)
+for i in mylist:
+    print(f"{i} ")
+rev=mylist[::-1]
+print(rev)
